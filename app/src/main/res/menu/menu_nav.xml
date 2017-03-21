@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grup1">
+        <item
+            android:id="@+id/id_menu_halal"
+            android:title="@string/cek_produk_halal_mui"
+            android:icon="@drawable/halal_sign"
+            />
+        <item
+            android:id="@+id/id_menu_kurs"
+            android:title="@string/kurs_mata_asing"
+            android:icon="@drawable/change"
+            />
+        <item
+            android:id="@+id/id_menu_tagihan"
+            android:title="@string/tagihan_pln"
+            android:icon="@drawable/idea"
+            />
+        <item
+            android:id="@+id/id_menu_about"
+            android:title="@string/tentang_saya"
+            android:icon="@drawable/hipster"
+            />
+    </group>
+</menu>

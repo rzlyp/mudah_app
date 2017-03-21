@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mudah</string>
+    <string name="cek_produk_halal_mui">Produk Halal MUI</string>
+    <string name="cek_jadwal_bioskop">Jadwal Bioskop</string>
+    <string name="pajak_kendaraan">Pajak Kendaraan</string>
+    <string name="prediksi_cuaca">Prediksi Cuaca</string>
+    <string name="kurs">Kurs</string>
+    <string name="kurs_mata_asing">Kurs Mata Asing</string>
+    <string name="tentang_saya">Tentang Saya</string>
+    <string name="tagihan_pln">Tagihan PLN</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
