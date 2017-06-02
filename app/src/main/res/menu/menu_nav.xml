@@ -8,13 +8,13 @@
             android:icon="@drawable/halal_sign"
             />
         <item
-            android:id="@+id/id_menu_kurs"
-            android:title="@string/kurs_mata_asing"
+            android:id="@+id/id_menu_info"
+            android:title="Info Menarik"
             android:icon="@drawable/change"
             />
         <item
-            android:id="@+id/id_menu_tagihan"
-            android:title="@string/tagihan_pln"
+            android:id="@+id/id_menu_stnk"
+            android:title="Cek STNK"
             android:icon="@drawable/idea"
             />
         <item

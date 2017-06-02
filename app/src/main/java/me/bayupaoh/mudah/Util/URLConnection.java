@@ -7,7 +7,7 @@ public class URLConnection {
     static String urlAPI = "http://ibacor.com/api";
 
     public static String getUrlHalal(String menu,String query,int page) {
-        return urlAPI+"/produk-halal-mui?menu="+menu+"&query="+query+"&page="+page;
+        return "http://sites.google.com/macros/exec?service=AKfycbx_-gZbLP7Z2gGxehXhWMWDAAQsTp3e3bmpTBiaLuzSDQSbIFWD&menu="+menu+"&query="+query+"&page="+page;
     }
 
     public static String getUrlKurs(String namaBank) {

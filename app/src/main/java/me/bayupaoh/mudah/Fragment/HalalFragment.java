@@ -165,8 +165,8 @@ public class HalalFragment extends Fragment {
 
                             ModelHalal model = new ModelHalal();
                             model.setIdProduk(objectListHalal.getString("nomor_sertifikat"));
-                            model.setNamaProduk(objectListHalal.getString("nama_produk"));
-                            model.setNamaProdusen(objectListHalal.getString("nama_produsen"));
+                            model.setNamaProduk(objectListHalal.getString("title"));
+                            model.setNamaProdusen(objectListHalal.getString("produsen"));
                             model.setTanggal(objectListHalal.getString("berlaku_hingga"));
 
                             listHalal.add(model);
