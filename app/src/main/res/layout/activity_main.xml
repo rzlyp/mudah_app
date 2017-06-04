@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawerlayout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="me.bayupaoh.mudah.MainActivity">
+    tools:context="com.so7.mudah.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

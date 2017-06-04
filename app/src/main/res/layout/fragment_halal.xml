@@ -5,7 +5,7 @@
     android:padding="10dp"
     android:background="#f0f0f0"
     android:orientation="vertical"
-    tools:context="me.bayupaoh.mudah.Fragment.HalalFragment">
+    tools:context="com.so7.mudah.Fragment.HalalFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

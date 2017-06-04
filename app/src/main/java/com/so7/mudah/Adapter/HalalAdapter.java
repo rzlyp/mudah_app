@@ -1,4 +1,4 @@
-package me.bayupaoh.mudah.Adapter;
+package com.so7.mudah.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import me.bayupaoh.mudah.Model.ModelHalal;
-import me.bayupaoh.mudah.R;
+import com.so7.mudah.Model.ModelHalal;
+import com.so7.mudah.R;
 
 /**
  * Created by codelabsunikom on 8/7/16.

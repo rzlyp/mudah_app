@@ -1,4 +1,4 @@
-package me.bayupaoh.mudah.Util;
+package com.so7.mudah.Util;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

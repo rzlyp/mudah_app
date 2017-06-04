@@ -1,4 +1,4 @@
-package me.bayupaoh.mudah;
+package com.so7.mudah;
 
 import android.app.Dialog;
 import android.support.design.widget.NavigationView;
@@ -14,9 +14,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import me.bayupaoh.mudah.Fragment.HalalFragment;
-import me.bayupaoh.mudah.Fragment.KursAsingFragment;
-import me.bayupaoh.mudah.Fragment.TagihanListrikFragment;
+import com.so7.mudah.Fragment.HalalFragment;
+import com.so7.mudah.Fragment.InfoFragment;
 
 public class MainActivity extends AppCompatActivity {
     
@@ -84,11 +83,11 @@ public class MainActivity extends AppCompatActivity {
                     imgToolbar.setImageResource(R.drawable.halal_sign);
                     fragmentManager.beginTransaction().replace(R.id.container_body, new HalalFragment()).commit();
                     return true;
-//                case R.id.id_menu_kurs:
-//                    txtToolbar.setText("Kurs Mata Asing");
-//                    imgToolbar.setImageResource(R.drawable.change);
-//                    fragmentManager.beginTransaction().replace(R.id.container_body, new KursAsingFragment()).commit();
-//                    return true;
+                case R.id.id_menu_info:
+                    txtToolbar.setText("Info Menarik");
+                    imgToolbar.setImageResource(R.drawable.change);
+                    fragmentManager.beginTransaction().replace(R.id.container_body, new InfoFragment()).commit();
+                    return true;
 //                case R.id.id_menu_tagihan:
 //                    txtToolbar.setText("Tagihan PLN");
 //                    imgToolbar.setImageResource(R.drawable.idea);

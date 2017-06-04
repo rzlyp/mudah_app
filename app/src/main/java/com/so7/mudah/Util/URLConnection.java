@@ -1,4 +1,4 @@
-package me.bayupaoh.mudah.Util;
+package com.so7.mudah.Util;
 
 /**
  * Created by codelabsunikom on 8/7/16.
@@ -17,6 +17,8 @@ public class URLConnection {
     public static String getUrlPLN(String idPelanggan,String tahun,String bln) {
         return urlAPI+"/tagihan-pln?idp="+idPelanggan.trim()+"&thn="+tahun+"&bln="+bln;
     }
+
+    public static String URL_INFO = "http://mudahapp.herokuapp.com/api/artikel";
 
 
 }

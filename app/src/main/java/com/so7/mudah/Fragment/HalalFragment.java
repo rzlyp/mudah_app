@@ -1,9 +1,8 @@
-package me.bayupaoh.mudah.Fragment;
+package com.so7.mudah.Fragment;
 
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
@@ -31,14 +30,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.bayupaoh.mudah.Adapter.HalalAdapter;
-import me.bayupaoh.mudah.Model.ModelHalal;
-import me.bayupaoh.mudah.R;
-import me.bayupaoh.mudah.Util.OkHttpConnection;
-import me.bayupaoh.mudah.Util.URLConnection;
+import com.so7.mudah.Adapter.HalalAdapter;
+import com.so7.mudah.Model.ModelHalal;
+import com.so7.mudah.R;
+import com.so7.mudah.Util.OkHttpConnection;
+import com.so7.mudah.Util.URLConnection;
 import okhttp3.Call;
 import okhttp3.Callback;
-import okhttp3.OkHttpClient;
 import okhttp3.Response;
 
 /**

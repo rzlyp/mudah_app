@@ -1,4 +1,4 @@
-package me.bayupaoh.mudah.Model;
+package com.so7.mudah.Model;
 
 /**
  * Created by codelabsunikom on 8/8/16.

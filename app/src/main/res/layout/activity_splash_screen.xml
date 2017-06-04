@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorPrimary"
-    tools:context="me.bayupaoh.mudah.SplashScreenActivity">
+    tools:context="com.so7.mudah.SplashScreenActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"

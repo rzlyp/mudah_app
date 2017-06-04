@@ -1,4 +1,4 @@
-package me.bayupaoh.mudah;
+package com.so7.mudah;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
