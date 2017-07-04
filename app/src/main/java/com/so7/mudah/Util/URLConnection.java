@@ -19,6 +19,6 @@ public class URLConnection {
     }
 
     public static String URL_INFO = "http://mudahapp.herokuapp.com/api/artikel";
-
+    public static String URL_STNK = "http://mudahapp.herokuapp.com/api/stnk";
 
 }

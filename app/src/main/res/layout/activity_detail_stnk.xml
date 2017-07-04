@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.so7.mudah.DetailStnkActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:titleTextColor="@color/cardview_light_background"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pemilik"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/v_txt_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/txt_nama"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txt_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat Pemilik"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                />
+            <TextView
+                android:id="@+id/v_txt_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                />
+
+
+        </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/txt_merk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Merk Motor"
+                    android:textSize="8pt"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    />
+                <TextView
+                    android:id="@+id/v_txt_merk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/txt_merk"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/txt_warna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Warna Motor"
+                    android:textSize="8pt"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    />
+                <TextView
+                    android:id="@+id/v_txt_warna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/txt_warna"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/txt_tahun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tahun Pembuatan"
+                    android:textSize="8pt"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    />
+                <TextView
+                    android:id="@+id/v_txt_tahun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/txt_tahun"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/txt_bpkb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No. BPKB"
+                    android:textSize="8pt"
+                    android:textStyle="bold"
+                    android:layout_alignParentLeft="true"
+                    />
+                <TextView
+                    android:id="@+id/v_txt_bpkb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8pt"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/txt_bpkb"
+                    />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

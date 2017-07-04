@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import com.so7.mudah.Fragment.HalalFragment;
 import com.so7.mudah.Fragment.InfoFragment;
+import com.so7.mudah.Fragment.StnkFragment;
 
 public class MainActivity extends AppCompatActivity {
     
@@ -88,11 +89,11 @@ public class MainActivity extends AppCompatActivity {
                     imgToolbar.setImageResource(R.drawable.change);
                     fragmentManager.beginTransaction().replace(R.id.container_body, new InfoFragment()).commit();
                     return true;
-//                case R.id.id_menu_tagihan:
-//                    txtToolbar.setText("Tagihan PLN");
-//                    imgToolbar.setImageResource(R.drawable.idea);
-//                    fragmentManager.beginTransaction().replace(R.id.container_body, new TagihanListrikFragment()).commit();
-//                    return true;
+                case R.id.id_menu_stnk:
+                    txtToolbar.setText("Cek STNK");
+                    imgToolbar.setImageResource(R.drawable.idea);
+                    fragmentManager.beginTransaction().replace(R.id.container_body, new StnkFragment()).commit();
+                    return true;
                 case R.id.id_menu_about:
                     final Dialog dialog = new Dialog(MainActivity.this);
                     dialog.setContentView(R.layout.about_me_alert);

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.so7.mudah.Fragment.StnkFragment">
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/find"/>
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:text="Cek STNK"
+                 android:layout_gravity="center_horizontal"
+                 android:textSize="15pt"
+                 android:textStyle="bold"
+                 android:textColor="@color/colorPrimary"
+                 android:layout_marginTop="20dp"
+                 />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/stnk_edt_no_stnk"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:textSize="30dp"
+                    android:inputType="text"
+                    android:hint="exm. D3497PK"
+                    android:gravity="center_vertical"/>
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/stnk_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cari"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/lightPrimaryCollor"
+                android:textSize="11pt"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/tests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14pt"
+                />
+
+
+</LinearLayout>
